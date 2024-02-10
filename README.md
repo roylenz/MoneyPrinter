@@ -21,14 +21,17 @@ pip install -r requirements.txt
 
 # Copy .env.example and fill out values
 cp .env.example .env
+```
 
-# Run the backend server
-cd Backend
-python main.py
+And to start the server you can run the following command:
+on Linux:
+```bash
+bash start_server.sh
+```
 
-# Run the frontend server
-cd ../Frontend
-python -m http.server 3000
+on Windows:
+```bat
+.\start_server.bat
 ```
 
 See [`.env.example`](.env.example) for the required environment variables.
